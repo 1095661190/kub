@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # VERSION 0.0.1
 # 默认ubuntu server长期支持版本，当前是12.04
@@ -33,3 +34,7 @@ EXPOSE 8080
 
 # 设置Tomcat7初始化运行，SSH终端服务器作为后台运行
 ENTRYPOINT service tomcat7 start && /usr/sbin/sshd -D
+=======
+FROM  gcr.io/google_containers/kube-proxy-amd64:v1.6.2
+MAINTAINER 1095661190 "1095661190@qq.com"
+>>>>>>> afde451e225cecf319b9120b3323b39f47bafce3

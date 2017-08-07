@@ -1,5 +1,5 @@
 FROM Ubuntu:14.04
-MAINTAINER Chris Chan "chenx1242@163.com"
+MAINTAINER 1095661190 "1095661190@qq.com"
 ENV REFRESHED_AT 2016-12-05
 RUN apt-get -y update && apt-get install -y nginx
 RUN mkdir -p /var/www/html/website

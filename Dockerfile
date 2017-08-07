@@ -1,4 +1,4 @@
-FROM Ubuntu
+FROM ubuntu
 MAINTAINER 1095661190 "1095661190@qq.com"
 ENV REFRESHED_AT 2016-12-05
 RUN apt-get -y update && apt-get install -y nginx
